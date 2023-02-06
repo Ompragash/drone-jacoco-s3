@@ -1,4 +1,4 @@
-module ompragash/drone-jacoco-s3-upload-publish
+module ompragash/drone-jacoco-s3
 
 go 1.19
 
