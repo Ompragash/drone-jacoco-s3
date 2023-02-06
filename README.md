@@ -72,13 +72,15 @@ NAME:
 ...
 ...
 GLOBAL OPTIONS:
-   --pipeline-sequence-id value  Harness CIE Pipeline Sequence ID [$PLUGIN_PIPELINE_SID]
-   --aws-access-key value        AWS Access Key ID [$PLUGIN_AWS_ACCESS_KEY_ID]
-   --aws-secret-key value        AWS Secret Access Key [$PLUGIN_AWS_SECRET_ACCESS_KEY]
-   --aws-default-region value    AWS Default Region [$PLUGIN_AWS_DEFAULT_REGION]
-   --aws-bucket value            AWS Default Region [$PLUGIN_AWS_BUCKET]
-   --report-source value         AWS Default Region [$PLUGIN_REPORT_SOURCE]
-   --artifact-file value         Artifact file [$PLUGIN_ARTIFACT_FILE]
+   --aws-access-key value      AWS Access Key ID [$PLUGIN_AWS_ACCESS_KEY_ID]
+   --aws-secret-key value      AWS Secret Access Key [$PLUGIN_AWS_SECRET_ACCESS_KEY]
+   --aws-default-region value  AWS Default Region [$PLUGIN_AWS_DEFAULT_REGION]
+   --aws-bucket value          AWS Default Region [$PLUGIN_AWS_BUCKET]
+   --report-source value       AWS Default Region [$PLUGIN_REPORT_SOURCE]
+   --report-target value       Report target [$PLUGIN_REPORT_TARGET]
+   --artifact-file value       Artifact file [$PLUGIN_ARTIFACT_FILE]
+   --help, -h                  show help
+   --version, -v               print the version
 ...
 ...
 ```
