@@ -68,19 +68,22 @@ go build
 ```
 ```
 NAME:
-   drone-jacoco-s3
+   drone-jacoco-s3...
+...
+...
+VERSION:
+   1.0.0
 ...
 ...
 GLOBAL OPTIONS:
    --aws-access-key value      AWS Access Key ID [$PLUGIN_AWS_ACCESS_KEY_ID]
    --aws-secret-key value      AWS Secret Access Key [$PLUGIN_AWS_SECRET_ACCESS_KEY]
    --aws-default-region value  AWS Default Region [$PLUGIN_AWS_DEFAULT_REGION]
-   --aws-bucket value          AWS Default Region [$PLUGIN_AWS_BUCKET]
-   --report-source value       AWS Default Region [$PLUGIN_REPORT_SOURCE]
+   --aws-bucket value          AWS S3 Bucket [$PLUGIN_AWS_BUCKET]
+   --report-source value       Report Source [$PLUGIN_REPORT_SOURCE]
    --report-target value       Report target [$PLUGIN_REPORT_TARGET]
    --artifact-file value       Artifact file [$PLUGIN_ARTIFACT_FILE]
    --help, -h                  show help
    --version, -v               print the version
-...
 ...
 ```
